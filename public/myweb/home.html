@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+#wrap {
+	width:1000px;
+	margin:auto;
+	box-shadow:5px 5px 5px 5px grey;
+	border-radius:10px;
+	background-image:url(back-blue.jpg);
+}
+#menu_horizontal {
+	width:1000px;
+	height:30px;
+	border:1px solid black;
+	background-color:silver;
+	color:black;
+	text-align:center;
+	position:fixed;
+	top:0px;
+	z-index:200px;
+	box-shadow:5px 5px 5px gray;
+	border-radius:10px
+}
+#menu_horizontal ul {
+	padding:0px;
+	margin:3px;
+	list-style-type:none;
+}
+#menu_horizontal li {
+	display:inline;
+}
+#menu_horizontal li a {
+	text-decoration:none;
+	color:darkblue;
+	border-right:1px solid gray;
+	padding: .2em 1em;
+	font-size:16px;
+}
+#menu_horizontal li a:hover {
+	background-color:blue;
+	color:white;
+}
+#header {
+	position:relative;
+	top:27px;
+	max-width:1000px;
+	height:200px;
+	background-image:url(background-green.jpg);
+	display:block;
+	box-shadow:5px 5px 5px gray;
+	border-radius:10px
+}
+#slogan {
+	position:absolute;
+	width:400px;
+	height:170px;
+	top:10px;
+}
+#slogan h1 {
+	font-family:gabrielle;
+	font-size:55px;
+	text-align:right;
+	font-weight:bold;
+	color:red;
+	margin-top:30px;
+	margin-bottom:0px;
+	padding:0;
+	text-shadow:3px 2px 1px black;
+}
+#slogan h2 {
+	font-family:gabrielle;
+	font-size:40x;
+	text-align:right;
+	font-weight:bold;
+	color:blue;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:0;
+	text-shadow:3px 2px 1px grey;
+}
+@font-face {
+	font-family: gabrielles;
+	scr:url(gabrielle.ttf);
+}
+#slogan .slogan {
+	font-family:tahoma,verdana,arial;
+	font-size:14px;
+	text-align:right;
+	color:brown;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:overline;
+}
+#gambar {
+	position:absolute;
+	width:400px;
+	height:170px;
+	top:10px;
+	right:10px;
+}
+#kanan {
+	width:200px;
+	margin-top:30px;
+	min-height:510px;
+	position:relative;
+	display:block;
+	float:right;
+}
+#menu_vertikal {
+	position:absolute;
+	width:200px;
+	height:260px;
+	display:block;
+	border:1px solid black;
+	background-color:darkred;
+	color:silver;
+	line-height:30px;
+	text-align:center;
+}
+#menu_vertikal li {
+	list-style-type:none;
+	text-align:left
+}
+#menu_vertikal li a {
+	text-decoration:none;
+	widht:175px;
+	background-color:silver;
+	display:block;
+	border-top:1px solid black;
+	padding:.2em .8em;
+}
+#menu_vertikal ul {
+	padding:0px;
+	margin-top:8px;
+}
+#menu_vertikal li a:hover {
+	background-color:blue;
+	color:black;
+}
+#content {
+	float:left;
+	max-width:790px;
+	margin-top:30px;
+	margin-left:5px;
+	display:block;
+	border:1px solid black;
+	color:white;
+}
+#footer {
+	clear:both;
+	margin-top:50px;
+	margin-width:1000px;
+	height:80px;
+	background-color:lightgrey;
+	color:black;
+	display:block;
+	text-align:center;
+	padding:2px;
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+}
+
+</style>
+</head>
+<body>
+<body background="body_back.gif"/>
+<div id="wrap">
+	<div id="menu_horizontal">
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="struktur.html">Struktur</a></li>
+			<li><a href="proker.html">Program Kerja</a></li>
+			<li><a href="foto.html">Foto</a></li>
+			<li><a href="kontak.html">Kontak</a></li>
+		</ul>
+	</div>
+	<div id="header">
+	<div id="slogan"">
+		<h1>HMJ KA</h1>
+		<h2>STMIK AKAKOM</h2>
+			<div class="slogan">Himpunan Mahasiswa Jurusan Komputerisasi Akuntansi</div>
+	</div>
+	<div id="gambar" align="right">
+	<img src="lambang_hmj_ka.png" height="170px"/>
+	</div>
+	</div>
+	<div id="kanan">
+		<div id="menu_vertikal">
+		.:: Menu ::.
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="struktur.html">Struktur</a></li>
+				<li><a href="proker.html">Program Kerja</a></li>
+				<li><a href="foto.html">Foto</a></li>
+				<li><a href="kontak.html">Kontak</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="content">
+		<h2>Selamat Datang di Web HMJ KA</h2><p style="text-align:justify"><b>Himpunan Mahasiswa Jurusan Komputerisasi Akuntansi</b> adalah suatu lembaga yang
+			didalamnya semua mahasiswa/i STMIK AKAKOM yang bergerak dalam bidang akademik dan non akademik untuk memajukan kampus STMIK AKAKOM. Adapun alasan
+			didirikan Himpunan Mahasiswa Jurusan Komputerisasi Akuntansi adalah menampung aspirasi Jurusan Komputerisasi Akuntansi serta menyalurkan minat & bakat
+			dibidang akademik maupun non akademik.</p>
+			<p style="text-align:justify">Himpunan Mahasiswa Jurusan Komputerisasi Akuntansi sebagai lembaga kemahasiswaan yang bernaung dibawah kepuketan III STMIK AKAKOM
+			dan merupakan bagian dari KM STMIK AKAKOM Yogyakarta.</p>
+			<p style="text-align:justify">Sejak berdiri Himpunan Mahasiswa Jurusan Komputerisasi Akuntansi melalui banyak hal perubahan pasang surut kehidupan organisasi.
+			Namun tidak merubah fungsi sebelumnya. Hingga saat ini konsistensi untuk bergerak dan menghidupkan kembali organisasi Himpunan Mahasiswa Jurusan Komputerisasi
+			Akuntansi.</p>
+			
+			</div>
+	<div id="footer">
+		<p style="font:12px verdana">
+			Hak Cipta &copy; 2015-2016 By: HMJ KA STMIK AKAKOM Yogyakarta
+		</p>
+		<p style="font:12px courier new">
+			Phone. +62 83840400719  <br/>
+			Email : <a href="mailto:hmjka20@gmail">hmjka20@gmail.com
+		</p>
+	</div>
+</body>
+</html>

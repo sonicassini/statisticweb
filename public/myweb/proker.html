@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+#wrap {
+	width:1000px;
+	margin:auto;
+	box-shadow:5px 5px 5px 5px grey;
+	border-radius:10px;
+	background-image:url(back2.jpg);
+}
+#menu_horizontal {
+	width:1000px;
+	height:30px;
+	border:1px solid black;
+	background-color:silver;
+	color:black;
+	text-align:center;
+	position:fixed;
+	top:0px;
+	z-index:200px;
+	box-shadow:5px 5px 5px gray;
+	border-radius:10px
+}
+#menu_horizontal ul {
+	padding:0px;
+	margin:3px;
+	list-style-type:none;
+}
+#menu_horizontal li {
+	display:inline;
+}
+#menu_horizontal li a {
+	text-decoration:none;
+	color:darkblue;
+	border-right:1px solid gray;
+	padding: .2em 1em;
+	font-size:16px;
+}
+#menu_horizontal li a:hover {
+	background-color:blue;
+	color:white;
+}
+#header {
+	position:relative;
+	top:27px;
+	max-width:1000px;
+	height:200px;
+	background-image:url(background-green.jpg);
+	display:block;
+	box-shadow:5px 5px 5px gray;
+	border-radius:10px
+}
+#slogan {
+	position:absolute;
+	width:400px;
+	height:170px;
+	top:10px;
+}
+#slogan h1 {
+	font-family:gabrielle;
+	font-size:55px;
+	text-align:right;
+	font-weight:bold;
+	color:red;
+	margin-top:30px;
+	margin-bottom:0px;
+	padding:0;
+	text-shadow:3px 2px 1px black;
+}
+#slogan h2 {
+	font-family:gabrielle;
+	font-size:40x;
+	text-align:right;
+	font-weight:bold;
+	color:blue;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:0;
+	text-shadow:3px 2px 1px grey;
+}
+@font-face {
+	font-family: gabrielles;
+	scr:url(gabrielle.ttf);
+}
+#slogan .slogan {
+	font-family:tahoma,verdana,arial;
+	font-size:14px;
+	text-align:right;
+	color:brown;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:overline;
+}
+#gambar {
+	position:absolute;
+	width:400px;
+	height:170px;
+	top:10px;
+	right:10px;
+}
+#kanan {
+	width:200px;
+	margin-top:30px;
+	min-height:510px;
+	position:relative;
+	display:block;
+	float:right;
+}
+#menu_vertikal {
+	position:absolute;
+	width:200px;
+	height:260px;
+	display:block;
+	border:1px solid black;
+	background-color:darkred;
+	color:silver;
+	line-height:30px;
+	text-align:center;
+}
+#menu_vertikal li {
+	list-style-type:none;
+	text-align:left
+}
+#menu_vertikal li a {
+	text-decoration:none;
+	widht:175px;
+	background-color:silver;
+	display:block;
+	border-top:1px solid black;
+	padding:.2em .8em;
+}
+#menu_vertikal ul {
+	padding:0px;
+	margin-top:8px;
+}
+#menu_vertikal li a:hover {
+	background-color:blue;
+	color:black;
+}
+#content {
+	float:left;
+	max-width:790px;
+	margin-top:30px;
+	margin-left:5px;
+	display:block;
+	border:1px solid black;
+	color:white;
+}
+#footer {
+	clear:both;
+	margin-top:50px;
+	margin-width:1000px;
+	height:80px;
+	background-color:lightgrey;
+	color:black;
+	display:block;
+	text-align:center;
+	padding:2px;
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+}
+
+</style>
+</head>
+<body>
+<body background="body_back.gif"/>
+<div id="wrap">
+	<div id="menu_horizontal">
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="struktur.html">Struktur</a></li>
+			<li><a href="proker.html">Program Kerja</a></li>
+			<li><a href="foto.html">Foto</a></li>
+			<li><a href="kontak.html">Kontak</a></li>
+		</ul>
+	</div>
+	<div id="header">
+	<div id="slogan"">
+		<h1>HMJ KA</h1>
+		<h2>STMIK AKAKOM</h2>
+			<div class="slogan">Himpunan Mahasiswa Jurusan Komputerisasi Akuntansi</div>
+	</div>
+	<div id="gambar" align="right">
+	<img src="lambang_hmj_ka.png" height="170px"/>
+	</div>
+	</div>
+	<div id="kanan">
+		<div id="menu_vertikal">
+		.:: Menu ::.
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="struktur.html">Struktur</a></li>
+				<li><a href="proker.html">Program Kerja</a></li>
+				<li><a href="foto.html">Foto</a></li>
+				<li><a href="kontak.html">Kontak</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="content">
+		<h2>Program Kerja</h2><p style="text-align:justify">Ditengah ketatnya kegiatan lembaga kemahasiswaan yang ada di STMIK AKAKOM Yogyakarta, Himpunan
+		Mahasiswa Jurusan Komputerisasi Akuntansi mencoba bangkit lagi dari kepasifan. Pada dasarnya program kerja yang kami jalankan saat ini tidak banyak perubahan 
+		dari program kerja kepengurusan sebelumnya, ada beberapa program kerja yang harus di revisi. Atas saran dari Kaprodi KA kami pun menambahkan program kerja yang 
+		bersangkutan dengan ilmiah dan juga program kerja yang bersangkutan dengan keanggotaan. Berikut Program Kerja yang kami kembangkan saat ini:
+		<table border="1">
+			<tr>
+				<th>No</th>
+				<th>Program Kerja</th>
+				<th>Keterangan</th>
+			</tr>
+			<tr>
+				<th colspan="3" align="left">Sekretaris</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Menjaga Kearsipan Dokumen</td>
+				<td>Menjaga Kearsipan Dokumen seperti surat masuk & surat keluar</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Pendataan Inventaris</td>
+				<td>Pendataan inventaris yang ada di sekretariat</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Surat Menyurat</td>
+				<td>Pembuatan surat menyurat keluar</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Membuat Daftar Anggota HMJ KA</td>
+				<td>Membukukan data-data anggota aktif HMJ KA</td>
+			</tr>
+				<td>5</td>
+				<td>Membuat Struktur Organisasi</td>
+				<td>Membuat struktur organisasi</td>
+			</tr>
+			<tr>
+				<td>6</td>
+				<td>Mencatat Semua Hasil dari Rapat dan Kegiatan</td>
+				<td>Membuat notulen rapat dan kegiatan</td>
+			</tr>
+			<tr>
+				<td>7</td>
+				<td>Schedule Proker perbulan</td>
+				<td>Membuat kalender proker perbulan</td>
+			</tr>
+			<tr>
+				<td>8</td>
+				<td>Schedule Tiap Kegiatan</td>
+				<td>Membuat schedule setiap kegiatan</td>
+			</tr>
+			<tr>
+				<th colspan="3" align="left">Bendahara</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Mencatat Pemasukan & Pemasukan Kas</td>
+				<td>Mencatat dan mengatur segala jenis pemasukan dan pengeluaran yang berkaitan dengan kas HMJ KA 2015/2016</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Laporan Keuangan</td>
+				<td>Membuat laporan keuangan setiap awal bulan</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Menarik Uang Kas</td>
+				<td>Menarik atau mengumpulkan uang kas HMJ KA dari anggota setiap sebulan sekali</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Menyusun Rencana Anggaran</td>
+				<td>Menyusun rencana anggran kerja setiap bulan</td>
+			</tr>
+			<tr>
+				<th colspan="3" align="left">Bidang Minat & Bakat</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Kelompok Sharing</td>
+				<td>Menciptakan kelompok sharing bagi anggota HMJ KA</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Memanfaatkan Web HMJ KA</td>
+				<td>Memanfaatkan Web HMJ KA untuk menampung hasil karya dan minat bakat anggota HMJ KA</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Belajar Bersama</td>
+				<td>Belajar bersama semua anggota HMJ KA</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Mengadakan Kuliah Umum</td>
+				<td>Mengadakan Kuliah Umum tiap 1 semester bekerja sama dengan Kaprodi KA</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>Mengadakan Pelatihan Softskill</td>
+				<td>Mengadakan pelatihan Softskill bekerja sama dengan Kaprodi KA</td>
+			</tr>
+			<tr>
+				<th colspan="2" align="left">Bidang Keanggotaan</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Menjalankan Program Piket</td>
+				<td>Menjalankan program piket di sekretariat bersama anggota</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>LDK</td>
+				<td>Mengadakan Latihan Dasar Kepemimpinan untuk Anggota Baru</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Makrab</td>
+				<td>Mengadakan Malam Keakraban diluar kampus yang diikuti semua anggota baru dan anggota lama</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Pembuatan NIA</td>
+				<td>Pendaftaran anggota inti dengan pembuatan no anggota dengan format No_urut/HMJ_KA/LDK_ke/TahunLDK</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>Pembuatan Baju Kebesaran</td>
+				<td>Pembuatan baju identitas HMJ KA dan yang memiliki adalah yang menjadi anggota</td>
+			</tr>
+			<tr>
+				<td>6</td>
+				<td>Buka Bersama</td>
+				<td>Buka bersama HMJ KA di bulan Ramadhan</td>
+			</tr>
+			<tr>
+				<td>7</td>
+				<td>Kerja Bakti</td>
+				<td>Bersih-bersih bersama anggota HMJ KA di sekretariat dan sekitarnya</td>
+			</tr>
+			<tr>
+				<td>8</td>
+				<td>Jalan-jalan</td>
+				<td>Mengadakan jalan-jalan bersama keluarga HMJ KA</td>
+			</tr>
+			<tr>
+				<th colspan="3" align="left">Bidang Humas</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Baksos</td>
+				<td>Membagi makanan berbuka puasa kepada pejalan dan orang yang membutuhkan</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Birokrasi</td>
+				<td>Menjalankan surat menyurat</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Menyampaikan Informasi</td>
+				<td>Menyampaikan segala informasi kepada seluruh anggota HMJ KA</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Pendelegasian UKM</td>
+				<td>Menghadiri acara dari KM lain dan mengetahui maksud dari undangan tersebut</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>Pembuatan Website</td>
+				<td>Membuat Website resmi HMJ KA untuk menampung bakat anggota HMJ KA</td>
+			</tr>
+		</table>
+			
+			
+			</div>
+	<div id="footer">
+		<p style="font:12px verdana">
+			Hak Cipta &copy; 2015-2016 By: HMJ KA STMIK AKAKOM Yogyakarta
+		</p>
+		<p style="font:12px courier new">
+			Phone. +62 83840400719  <br/>
+			Email : <a href="mailto:hmjka20@gmail">hmjka20@gmail.com
+		</p>
+	</div>
+</body>
+</html>
